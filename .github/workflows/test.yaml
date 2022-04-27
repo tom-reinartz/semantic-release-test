@@ -1,4 +1,4 @@
-name: Test & Publish Coolkit Data IO Interface
+name: Test & Publish
 
 on: [ push, pull_request ]
 
