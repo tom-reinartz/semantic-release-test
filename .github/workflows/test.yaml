@@ -1,0 +1,13 @@
+name: Test & Publish Coolkit Data IO Interface
+
+on: [ push, pull_request ]
+
+jobs:
+  release:
+      name: sematic-release
+      runs-on: ubuntu-latest
+      steps:
+        - name: Check out the repository
+          uses: actions/checkout@v2
+          with:
+            fetch-depth: 0
