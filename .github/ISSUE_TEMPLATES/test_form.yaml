@@ -1,0 +1,15 @@
+name: "Test form"
+description: "Some description for this form"
+title: "A new issue " 
+labels: ["bug"]
+assignees:
+  - tom-reinartz
+body:
+  - type: input
+    id: input
+    attributes:
+      label: Write something
+      description: Describe the attribute to me
+      placeholder: "some placeholder"
+    validations:
+      required: true
